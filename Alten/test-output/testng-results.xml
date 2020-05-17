@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48676" started-at="2020-05-17T15:31:58 WET" finished-at="2020-05-17T15:32:47 WET">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="23472" started-at="2020-05-17T15:31:58 WET" finished-at="2020-05-17T15:32:22 WET">
+      <class name="sample.CreationCompte">
+        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@73d4cc9e]" name="Creer" duration-ms="23406" started-at="2020-05-17T15:31:58 WET" finished-at="2020-05-17T15:32:22 WET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Creer -->
+      </class> <!-- sample.CreationCompte -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="25170" started-at="2020-05-17T15:32:22 WET" finished-at="2020-05-17T15:32:47 WET">
+      <class name="sample.Login">
+        <test-method status="PASS" signature="logining()[pri:0, instance:sample.Login@58a90037]" name="logining" duration-ms="25165" started-at="2020-05-17T15:32:22 WET" finished-at="2020-05-17T15:32:47 WET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logining -->
+      </class> <!-- sample.Login -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
