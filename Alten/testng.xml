@@ -11,4 +11,10 @@
       <class name="sample.Login"/>
     </classes>
   </test> 
+
+<test name="Test3">
+    <classes>
+      <class name="sample.ajout"/>
+    </classes>
+  </test> 
 </suite>
