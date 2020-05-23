@@ -48,10 +48,10 @@ public class ajout {
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id='edit-field-vous-etes-und']")))).click();
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-pass-pass2\"]")))).sendKeys("Jamila123");
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-nom-und-0-value\"]")))).sendKeys("KHALLOUFI");
-	    		wait.until(ExpectedConditions.visibilityOf(	driver.findElement(By.xpath("//*[@id=\"edit-field-prenom-und-0-value\"]")))).sendKeys("Jamila");
-	    		wait.until(ExpectedConditions.visibilityOf(	driver.findElement(By.xpath("//*[@id=\"edit-field-field-comment-avez-vous-de-und\"]")))).click();   
-	    		wait.until(ExpectedConditions.visibilityOf(	driver.findElement(By.xpath("//*[@id=\"edit-field-cgu-und\"]")))).click();  
-	    		wait.until(ExpectedConditions.visibilityOf(	driver.findElement(By.xpath("//*[@id=\"edit-submit\"]")))).click();
+	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-prenom-und-0-value\"]")))).sendKeys("Jamila");
+	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-field-comment-avez-vous-de-und\"]")))).click();   
+	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-cgu-und\"]")))).click();  
+	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-submit\"]")))).click();
 	    		    }
 	    		  
 
