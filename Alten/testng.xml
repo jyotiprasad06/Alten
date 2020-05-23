@@ -9,13 +9,13 @@
   
   <test name="Test2">
     <classes>
-      <class name="sample.Login"/>
+      <class name="sample1.Login"/>
     </classes>
   </test> 
 
 <test name="Test3">
     <classes>
-      <class name="sample.ajout"/>
+      <class name="sample2.ajout"/>
     </classes>
   </test> 
 </suite>

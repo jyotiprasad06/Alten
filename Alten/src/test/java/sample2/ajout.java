@@ -1,4 +1,4 @@
-package sample;
+package sample2;
 
 import java.util.Set;
 
@@ -29,8 +29,22 @@ public class ajout {
 	    for(String hndl : windowHndls){
 	    String WindowURL = driver.switchTo().window(hndl).getCurrentUrl();
 	    if(WindowURL.equalsIgnoreCase("https://www.code-decode.net/code-amazon")){
-	    break;
+	    	driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul/li[1]/a")).click();
+	    	String mainWindow1 = driver.getWindowHandle();
+	    	 Set<String> windowHndls1 = driver.getWindowHandles();
+	    	 for(String hndl1 : windowHndls1){
+	    		    String WindowURL1 = driver.switchTo().window(hndl1).getCurrentUrl();
+	    		    if(WindowURL1.equalsIgnoreCase("https://www.code-decode.net/programme")){
+	    		    
+	    	     //break;   
+	  	  
 	    }
+	    
+	    //driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul/li[1]/a")).click();
+	  
+	    
 	    }
 }
 	}
+	}
+}

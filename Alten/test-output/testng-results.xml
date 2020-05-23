@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="111077" started-at="2020-05-21T16:51:52 WET" finished-at="2020-05-21T16:53:43 WET">
+  <suite name="Suite" duration-ms="107213" started-at="2020-05-23T13:40:19 WET" finished-at="2020-05-23T13:42:06 WET">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="41427" started-at="2020-05-21T16:51:52 WET" finished-at="2020-05-21T16:52:34 WET">
+    <test name="Test1" duration-ms="22205" started-at="2020-05-23T13:40:19 WET" finished-at="2020-05-23T13:40:41 WET">
       <class name="sample.CreationCompte">
-        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@73d4cc9e]" name="Creer" duration-ms="41370" started-at="2020-05-21T16:51:52 WET" finished-at="2020-05-21T16:52:34 WET">
+        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@4bbfb90a]" name="Creer" duration-ms="22138" started-at="2020-05-23T13:40:19 WET" finished-at="2020-05-23T13:40:41 WET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Creer -->
       </class> <!-- sample.CreationCompte -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="20446" started-at="2020-05-21T16:52:34 WET" finished-at="2020-05-21T16:52:54 WET">
-      <class name="sample.Login">
-        <test-method status="PASS" signature="logining()[pri:0, instance:sample.Login@58a90037]" name="logining" duration-ms="20441" started-at="2020-05-21T16:52:34 WET" finished-at="2020-05-21T16:52:54 WET">
+    <test name="Test2" duration-ms="19613" started-at="2020-05-23T13:40:41 WET" finished-at="2020-05-23T13:41:01 WET">
+      <class name="sample1.Login">
+        <test-method status="PASS" signature="logining()[pri:0, instance:sample1.Login@3b088d51]" name="logining" duration-ms="19613" started-at="2020-05-23T13:40:41 WET" finished-at="2020-05-23T13:41:01 WET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logining -->
-      </class> <!-- sample.Login -->
+      </class> <!-- sample1.Login -->
     </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="49144" started-at="2020-05-21T16:52:54 WET" finished-at="2020-05-21T16:53:43 WET">
-      <class name="sample.ajout">
-        <test-method status="PASS" signature="Adding()[pri:0, instance:sample.ajout@40f08448]" name="Adding" duration-ms="49137" started-at="2020-05-21T16:52:54 WET" finished-at="2020-05-21T16:53:43 WET">
+    <test name="Test3" duration-ms="65343" started-at="2020-05-23T13:41:01 WET" finished-at="2020-05-23T13:42:06 WET">
+      <class name="sample2.ajout">
+        <test-method status="PASS" signature="Adding()[pri:0, instance:sample2.ajout@3712b94]" name="Adding" duration-ms="65339" started-at="2020-05-23T13:41:01 WET" finished-at="2020-05-23T13:42:06 WET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Adding -->
-      </class> <!-- sample.ajout -->
+      </class> <!-- sample2.ajout -->
     </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

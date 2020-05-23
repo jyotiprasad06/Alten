@@ -23,11 +23,11 @@
     <version>2.2.335</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.google.gerrit/gerrit-acceptance-framework -->
-<dependency>
+<!--<dependency>
     <groupId>com.google.gerrit</groupId>
     <artifactId>gerrit-acceptance-framework</artifactId>
     <version>3.1.4</version>
-</dependency>
+</dependency>-->
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
