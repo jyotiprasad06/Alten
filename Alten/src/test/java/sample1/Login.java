@@ -31,7 +31,11 @@ public class Login {
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click();
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_password\"] ")))).sendKeys("Jamila1234@");
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")))).click(); 
+<<<<<<< HEAD
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click(); 
+=======
+	//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click(); 
+>>>>>>> refs/remotes/origin/master
 	
 	}
 
