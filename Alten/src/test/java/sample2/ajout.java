@@ -51,7 +51,7 @@ public class ajout {
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-prenom-und-0-value\"]")))).sendKeys("Jamila");
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-field-comment-avez-vous-de-und\"]")))).click();   
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-cgu-und\"]")))).click();  
-	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-submit\"]")))).click();
+	    		//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-submit\"]")))).click();
 	    		    }
 	    		  
 
