@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test3(failed)">
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="sample2.ajout">
+      <class name="sample.CreationCompte">
         <methods>
-          <include name="Adding"/>
+          <include name="Creer"/>
         </methods>
-      </class> <!-- sample2.ajout -->
+      </class> <!-- sample.CreationCompte -->
     </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="sample1.Login">
+        <methods>
+          <include name="logining"/>
+        </methods>
+      </class> <!-- sample1.Login -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
