@@ -72,6 +72,11 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					 <configuration>
+          <systemPropertyVariables>
+            <propertyName>firefox</propertyName>
+          </systemPropertyVariables>
+        </configuration>
 				</configuration>
 			</plugin>
 		</plugins>
