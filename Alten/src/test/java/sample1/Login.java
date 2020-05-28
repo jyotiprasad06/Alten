@@ -33,6 +33,7 @@ public class Login {
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")))).click(); 
 
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click(); 
+	 System.out.println("veuillez Entrer le code de verivication envoyé par message ");
 
 	//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click(); 
 
