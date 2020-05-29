@@ -146,7 +146,7 @@
 
         <artifactId>maven-surefire-plugin</artifactId>
 
-        <version>2.12.2</version>
+        <version>3.0.0-M4</version>
 
         <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
