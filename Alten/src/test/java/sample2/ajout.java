@@ -36,7 +36,7 @@ public class ajout {
 	    	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\\\"navbar\\\"]/ul/li[1]/a"))));//driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul/li[1]/a")).click();
 	    	String mainWindow1 = driver.getWindowHandle();
 	    	 Set<String> windowHndls1 = driver.getWindowHandles();
-	    	 for(String hndl1 : windowHndls1){
+	    	 /*for(String hndl1 : windowHndls1){
 	    		    String WindowURL1 = driver.switchTo().window(hndl1).getCurrentUrl();
 	    		    if(WindowURL1.equalsIgnoreCase("https://www.code-decode.net/programme")){
 	    		    	
@@ -53,6 +53,7 @@ public class ajout {
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-field-cgu-und\"]")))).click();  
 	    		//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-submit\"]")))).click();
 	    		    }
+					*/
 	    		  
 
 	  
